@@ -12,23 +12,28 @@ XJTU_DATABASE_LAB/
 │   └── test/java/cn/edu/xjtu/dblab/
 │       └── AppTest.java                # 单元测试
 ├── pom.xml                             # Maven配置文件
-├── 数据处理脚本/
-│   ├── parsepdf.py                     # PDF姓名提取脚本
-│   ├── gencdata.py                     # 数据格式处理脚本
-│   ├── genscdata.py                    # 选课关系生成脚本
-│   └── request.py                      # 课程信息爬虫脚本
-├── 数据源文件/
-│   └── 2024国赛.pdf                    # 学生姓名数据源
-├── 生成数据/
-│   ├── students_name.csv               # 提取的姓名表格
-│   ├── students_{1000,5000}.csv        # 学生数据（不同规模）
-│   ├── xjtu_courses.csv                # 爬取的课程信息
-│   ├── courses_{100,1000}.csv          # 课程数据（不同规模）
-│   └── stu_course_{20000,200000}.csv   # 选课记录（不同规模）
-├── 数据库备份/
-│   ├── 2223515348_backup.tar           # 基础实验备份
-│   └── 2223515348_backup_trigger.tar   # 完整实验备份
-└── 实验报告.pdf                        # 详细实验报告
+│ 
+│ # 数据处理脚本
+├── parsepdf.py                     # PDF姓名提取脚本
+├── gencdata.py                     # 数据格式处理脚本
+├── genscdata.py                    # 选课关系生成脚本
+├── request.py                      # 课程信息爬虫脚本
+│ 
+│ # 数据源文件
+├── 2024国赛.pdf                    # 学生姓名数据源
+│ 
+│ # 生成数据
+├── students_name.csv               # 提取的姓名表格
+├── students_{1000,5000}.csv        # 学生数据（不同规模）
+├── xjtu_courses.csv                # 爬取的课程信息
+├── courses_{100,1000}.csv          # 课程数据（不同规模）
+├── stu_course_{20000,200000}.csv   # 选课记录（不同规模）
+│ 
+│ # 数据库备份
+├── 2223515348_backup.tar           # 基础实验备份
+├── 2223515348_backup_trigger.tar   # 完整实验备份
+│ 
+└── 实验报告.pdf                     # 详细实验报告
 ```
 
 ## 数据处理流程
